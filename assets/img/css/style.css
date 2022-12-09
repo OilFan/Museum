@@ -1,0 +1,207 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a {
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin: 0 0px 0px 0;
+    padding: 6px;
+    color: #000;
+}
+.youtube a:hover {background: #c4302b; color: #fff;}
+.twitter a:hover {background: #00acee; color: #fff;}
+.instagram a:hover {background: #3f729b; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+.vk a:hover {background: #5d84ae; color: #fff;}
+.odnoklassniki a:hover {background: #f93; color: #fff;}
+.telegram a:hover {background: #249bd7; color: #fff;}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-weight: 700;
+}
+
+.link{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(145, 22, 22);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+.header-inner {
+    padding: 20px 0 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(145, 22, 22);
+}
+
+.header-menu {
+    font-size: 14px;
+    margin-left: 160px;
+}
+
+.menu-link {
+    color: black;
+    text-transform: uppercase;
+    margin-left: 60px;
+}
+
+.main {
+    height: 350px;
+    background: url(../img/Star.jpg) rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    font-weight: 150;
+}
+.main-title {
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.main-description {
+    width: 450px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.main-button {
+    background: #ffffff;
+    color: #545454;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* SECTION */
+section {
+    padding: 80px 0 70px 0;
+}
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.section-title {
+    font-size: 34px;
+    font-weight: 300;
+}
+
+
+.list {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+}
+.list-item {
+    text-align: center;
+   
+    margin-right: 10px;
+    border: 2px;
+}
+.list-image {
+    height: 150px;
+    width: auto;
+    margin-bottom: 30px;
+   
+}
+
+.about-description {
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+hr{
+    width: 100%;
+    height: 3px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: rgb(145, 22, 22);
+    color: #ffffff;
+    padding: 24px 0;
+}
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-input,
+.footer-button {
+    width: 230px;
+    padding: 12px 14px;
+    border: 1px solid #ffffff;
+    background: transparent;
+    color: #ffffff;
+    margin-right: 20px;
+    outline: none;
+}
+.footer-input::placeholder {
+    color: #ffffff;
+}
+.footer-button {
+    background: #ffffff;
+    color: #545454;
+    font-weight: bold;
+}
+.footer-text {
+    width: 253px;
+}
+.footer-text1 {
+    width: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
